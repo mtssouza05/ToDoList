@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 2rem;
+    background-color: black;
+    color: beige;
+    height: 40rem;
+    width: 40rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.entradas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.entradas input{
+    border: none;
+    width:20rem;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1rem;
+    background-color: rgb(238, 234, 234);
+
+}
+
+#addon-wrapping{
+    background-color: rgb(255, 255, 255);
+}
+
+#caixatexto{
+    outline: none;
+    box-shadow: none;
+}
+
+#conteudo h2{
+    background-color: var(--bs-table-bg);;
+}
